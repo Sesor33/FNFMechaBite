@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Mecha Idle DANCE"
+		},
+		{
+			"offsets": [
+				-14,
+				-175
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Mecha Note DOWN"
+		},
+		{
+			"offsets": [
+				0,
+				-5
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Mecha Note LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				-16
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Mecha Note RIGHT"
+		},
+		{
+			"offsets": [
+				-33,
+				13
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Mecha Note UP"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/oil_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mecha",
+	"flip_x": false,
+	"healthbar_colors": [
+		220,
+		218,
+		220
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

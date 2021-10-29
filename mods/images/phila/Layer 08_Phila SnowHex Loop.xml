@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 08_Phila SnowHex Loop.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 08_Phila SnowHex Loop0000" x="10" y="10" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0001" x="10" y="10" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0002" x="233" y="10" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0003" x="233" y="10" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0004" x="10" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0005" x="10" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0006" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0007" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0008" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0009" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0010" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0011" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0012" x="233" y="265" width="213" height="245"/>
+	<SubTexture name="Layer 08_Phila SnowHex Loop0013" x="233" y="265" width="213" height="245"/>
+</TextureAtlas>
