@@ -1,0 +1,30 @@
+{
+	"storyName": "Ice Cold",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"mechamenu",
+		"bonmenu",
+		"dovvemenu"
+	],
+	"songs": [
+		[
+			"mechabite",
+			"bon",
+			[
+				26,
+				215,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Mechabite"
+}
