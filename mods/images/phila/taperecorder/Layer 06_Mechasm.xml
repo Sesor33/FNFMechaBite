@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 06_Mechasm.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 06_Mechasm0000" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0001" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0002" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0003" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0004" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0005" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0006" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0007" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0008" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0009" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0010" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0011" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0012" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 06_Mechasm0013" x="10" y="2910" width="2560" height="1440"/>
+</TextureAtlas>
