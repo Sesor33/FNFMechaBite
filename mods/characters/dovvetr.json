@@ -1,0 +1,87 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"fps": 24,
+			"anim": "danceLeft",
+			"loop": false,
+			"name": "Dovve Dancing Beat_TapeRecorder"
+		},
+		{
+			"offsets": [
+				0,
+				-9
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29
+			],
+			"fps": 24,
+			"anim": "danceRight",
+			"loop": false,
+			"name": "Dovve Dancing Beat_TapeRecorder"
+		},
+		{
+			"offsets": [
+				-2,
+				-19
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "cringe",
+			"loop": true,
+			"name": "Dovve Cringe_TapeRecorder"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dovvetr_assets",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": false,
+	"healthbar_colors": [
+		165,
+		0,
+		77
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

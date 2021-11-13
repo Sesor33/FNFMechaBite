@@ -24,6 +24,11 @@ end
 
 
 function onCreate()
+	addCharacterToList('dovvetr', 'gf')
+	makeAnimatedLuaSprite('dovvetr', 'dovvetr_assets')
+	luaSpriteAddAnimationByPrefix('dovvetr', 'danceLeft', 'danceLeft', 24, false);
+	luaSpriteAddAnimationByPrefix('dovvetr', 'danceRight', 'danceRight', 24, false);
+
 	--Add taperecorder BG sprites
 	makeLuaSprite('BGT1', 'phila/taperecorder/Layer 11_TR BG', -1200, -1115);
 	setScrollFactor('BGT1', 0.1, 0.1);
@@ -65,7 +70,7 @@ end
 --This is called every beat
 function onBeatHit()
 	--Actual beat is 208
-	if curBeat == 4 then
+	if curBeat == 208 then
 		swapToTaperecorder()
 	end
 
@@ -134,6 +139,9 @@ function swapToTaperecorder()
 	setProperty('dad.x', -200)
 	setProperty('gf.x', 1200)
 	setProperty('gf.y', 180)
+
+	
+	setProperty('gf.curCharacter', 'dovvetr')
 
 	--Change camera zoom
 	setProperty('defaultCamZoom', 0.50)	
