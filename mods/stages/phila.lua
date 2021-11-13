@@ -6,12 +6,12 @@ function onCreate()
 	setScrollFactor('BG1', 0.1, 0.1);
 
 	makeAnimatedLuaSprite('hex','phila/Layer 08_Phila SnowHex Loop', 1200, 0);
-	addAnimationByPrefix('hex','bump','Layer 08_Phila SnowHex Loop', 24, true);
+	addAnimationByPrefix('hex','bump','Layer 08_Phila SnowHex Loop', 24, false);
 	setScrollFactor('hex', 0.5, 0.5);
 	scaleObject('hex', 1, 1);
 
 	makeAnimatedLuaSprite('golinLoop','phila/Layer 07_Phila Golin REC Loop', -200, -15);
-	addAnimationByPrefix('golinLoop','bump','Layer 07_Phila Golin REC Loop', 24, true);
+	addAnimationByPrefix('golinLoop','bump','Layer 07_Phila Golin REC Loop', 24, false);
 	setScrollFactor('golinLoop', 0.5, 0.5);
 	scaleObject('golinLoop', 1, 1);
 
@@ -25,7 +25,7 @@ function onCreate()
 	setScrollFactor('BG4', 0.7, 0.7);
 
 	makeAnimatedLuaSprite('crowd','phila/Layer 03_Phila Croud', 0, 450);
-	addAnimationByPrefix('crowd','bump','Layer 03_Phila Croud', 24, true);
+	addAnimationByPrefix('crowd','bump','Layer 03_Phila Croud', 24, false);
 	setScrollFactor('crowd', 1, 1);
 	scaleObject('crowd', 0.85, 0.85);
 
