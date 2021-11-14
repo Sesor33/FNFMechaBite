@@ -82,7 +82,7 @@ end
 --This is called every beat
 function onBeatHit()
 	--Actual beat is 208
-	if curBeat == 4 then
+	if curBeat == 208 then
 		swapToTaperecorder()
 	end
 
