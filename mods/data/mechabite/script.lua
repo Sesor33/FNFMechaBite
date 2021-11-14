@@ -75,8 +75,14 @@ function onCreate()
 	addAnimationByPrefix('FGT1','bump','Layer 01_TR FG', 24, false);
 	scaleObject('FGT1', 1.7, 1.7);
 
+	makeLuaSprite('cameraFlash', 'phila/taperecorder/cameraFlash', -1200, -1000);
+	scaleObject('cameraFlash', 100, 100);
+
 	--Add Bon death sprite
     readyDeathSprite()
+
+	--Add taperecorder BG sprites
+	addTaperecorderBGSprites();
 end
 
 --This is called every beat
@@ -124,36 +130,14 @@ function onGameOverConfirm(retry)
     playMusic('gameOverEnd', 1, true)
 end
 
+--Swap sprites to taperecorder
 function swapToTaperecorder()
-	--Swap sprites to taperecorder
 
 	--Remove unwanted sprites
-	removeLuaSprite('BG1', true)
-	removeLuaSprite('hex', true);
-	removeLuaSprite('golinLoop', true);
-	removeLuaSprite('BG2', true);
-	removeLuaSprite('BG3', true);
-	removeLuaSprite('BG4', true);
-	removeLuaSprite('crowd', true);
-	removeLuaSprite('FG2', true);
-	removeLuaSprite('FG', true);
+	removeOldSprites()
 
 	--Add taperecorder BG sprites
-	addLuaSprite('BGT1', false)
-	addLuaSprite('BGTStars', false)
-	addLuaSprite('BGT2', false)
-	addLuaSprite('BGTShootingStar', false)
-	addLuaSprite('BGTFog2', false)
-	addLuaSprite('BGTMechasm', false)
-	addLuaSprite('BGTFog', false)
-	addLuaSprite('BGTRock', false)
-	addLuaSprite('BGTFloor', false)
-	addLuaSprite('BGTBird', false)
-	addLuaSprite('FGT1', false)
-
-	setProperty('BGTFog2.flipX', true)
-
-	
+	showTaperecorderBGSprites()
 
 	--Change player position
 	setProperty('boyfriend.x', 1750)
@@ -161,14 +145,11 @@ function swapToTaperecorder()
 	setProperty('gf.x', 1200)
 	setProperty('gf.y', 180)
 	
-	setProperty('gf.curCharacter', 'dovvetr')
-
-	--Change camera zoom
-	doTweenZoom('zoomTag', 'camGame', 0.505, 1, 'linear')
-	setProperty('defaultCamZoom', 0.505)	
-
+	--Tweens
+	doTweenZoom('zoomTag', 'camGame', 0.505, .5, 'linear')
 	doTweenAlpha('alphaTag', 'BGTFog',0.3,1,'linear')
 	doTweenAlpha('alphaTag2', 'BGTFog2',0.2,1,'linear')
+	
 
 	isSwapped = true
 end
@@ -183,4 +164,75 @@ function readyDeathSprite()
     luaSpriteAddAnimationByPrefix('bon_dead', 'deathConfirm', 'deathConfirm', 24, false)
 
     setPropertyFromClass('GameOverSubstate', 'characterName', 'bon_dead')
+end
+
+function onTweenCompleted(tag)
+	if tag == 'camFlashTag' then
+		removeLuaSprite('cameraFlash', true)
+	end
+	if tag == 'zoomTag' then
+		setProperty('defaultCamZoom', 0.505)
+		doTweenAlpha('camFlashTag', 'cameraFlash',0,1,'linear')
+	end
+end
+
+--Adds all sprites from taperecorder BG sprites
+function addTaperecorderBGSprites()
+	addLuaSprite('BGT1', false)
+	addLuaSprite('BGTStars', false)
+	addLuaSprite('BGT2', false)
+	addLuaSprite('BGTShootingStar', false)
+	addLuaSprite('BGTFog2', false)
+	addLuaSprite('BGTMechasm', false)
+	addLuaSprite('BGTFog', false)
+	addLuaSprite('BGTRock', false)
+	addLuaSprite('BGTFloor', false)
+	addLuaSprite('BGTBird', false)
+	addLuaSprite('FGT1', false)
+	addLuaSprite('cameraFlash', true)
+
+	setProperty('BGT1.visible', false)
+	setProperty('BGTStars.visible', false)
+	setProperty('BGT2.visible', false)
+	setProperty('BGTShootingStar.visible', false)
+	setProperty('BGTFog2.visible', false)
+	setProperty('BGTMechasm.visible', false)
+	setProperty('BGTFog.visible', false)
+	setProperty('BGTRock.visible', false)
+	setProperty('BGTFloor.visible', false)
+	setProperty('BGTBird.visible', false)
+	setProperty('FGT1.visible', false)
+	setProperty('cameraFlash.visible', false)
+end
+
+--Sets all taperecorder BG sprites as visible
+function showTaperecorderBGSprites()
+	setProperty('BGT1.visible', true)
+	setProperty('BGTStars.visible', true)
+	setProperty('BGT2.visible', true)
+	setProperty('BGTShootingStar.visible', true)
+	setProperty('BGTFog2.visible', true)
+	setProperty('BGTMechasm.visible', true)
+	setProperty('BGTFog.visible', true)
+	setProperty('BGTRock.visible', true)
+	setProperty('BGTFloor.visible', true)
+	setProperty('BGTBird.visible', true)
+	setProperty('FGT1.visible', true)
+	setProperty('cameraFlash.visible', true)
+
+	setProperty('BGTFog2.flipX', true)
+end
+
+
+--Remove unwanted sprites
+function removeOldSprites()
+	removeLuaSprite('BG1', true)
+	removeLuaSprite('hex', true);
+	removeLuaSprite('golinLoop', true);
+	removeLuaSprite('BG2', true);
+	removeLuaSprite('BG3', true);
+	removeLuaSprite('BG4', true);
+	removeLuaSprite('crowd', true);
+	removeLuaSprite('FG2', true);
+	removeLuaSprite('FG', true);
 end

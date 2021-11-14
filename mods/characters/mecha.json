@@ -1,59 +1,59 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-1,
 				0
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "idle",
-			"loop": false,
-			"name": "Mecha Idle DANCE"
+			"fps": 24,
+			"name": "Mecha Idle DANCE",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-14,
 				-175
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Mecha Note DOWN"
+			"fps": 24,
+			"name": "Mecha Note DOWN",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-5
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Mecha Note LEFT"
+			"fps": 24,
+			"name": "Mecha Note LEFT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-16
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Mecha Note RIGHT"
+			"fps": 24,
+			"name": "Mecha Note RIGHT",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-33,
 				13
 			],
-			"indices": [],
-			"fps": 24,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Mecha Note UP"
+			"fps": 24,
+			"name": "Mecha Note UP",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
@@ -70,7 +70,7 @@
 		220
 	],
 	"camera_position": [
-		0,
+		5,
 		0
 	],
 	"sing_duration": 4,

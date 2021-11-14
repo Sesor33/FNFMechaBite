@@ -1,148 +1,148 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-3,
 				178
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Dance IDLE",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Dance IDLE"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				155
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note LEFT",
+			"anim": "singLEFT",
 			"indices": [
 				0,
 				1,
 				2
-			]
+			],
+			"name": "Bon Note LEFT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-1,
 				174
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note RIGHT",
+			"anim": "singRIGHT",
 			"indices": [
 				0,
 				1,
 				2
-			]
+			],
+			"name": "Bon Note RIGHT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				30,
 				49
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note DOWN",
+			"anim": "singDOWN",
 			"indices": [
 				0,
 				1,
 				2
-			]
+			],
+			"name": "Bon Note DOWN"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				213
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note UP",
+			"anim": "singUP",
 			"indices": [
 				0,
 				1,
 				2
-			]
+			],
+			"name": "Bon Note UP"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				175
 			],
-			"anim": "hey",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon HEY!!",
+			"anim": "hey",
 			"indices": [
 				0,
 				1,
 				2,
 				3,
 				4
-			]
+			],
+			"name": "Bon HEY!!"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				32,
 				43
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note DOWN MISS",
+			"anim": "singDOWNmiss",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Bon Note DOWN MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				3,
 				206
 			],
-			"anim": "singUPmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note UP MISS",
+			"anim": "singUPmiss",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Bon Note UP MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				1,
 				154
 			],
-			"anim": "singLEFTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note LEFT MISS",
+			"anim": "singLEFTmiss",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Bon Note LEFT MISS"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				2,
 				174
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 24,
-			"name": "Bon Note RIGHT MISS",
+			"anim": "singRIGHTmiss",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Bon Note RIGHT MISS"
 		}
 	],
 	"no_antialiasing": false,
@@ -159,7 +159,7 @@
 		191
 	],
 	"camera_position": [
-		40,
+		45,
 		-200
 	],
 	"sing_duration": 4,

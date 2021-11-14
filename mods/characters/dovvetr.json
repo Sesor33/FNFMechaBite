@@ -1,10 +1,14 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-9
 			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "Dovve Dancing Beat_TapeRecorder",
 			"indices": [
 				0,
 				1,
@@ -21,17 +25,17 @@
 				12,
 				13,
 				14
-			],
-			"fps": 24,
-			"anim": "danceLeft",
-			"loop": false,
-			"name": "Dovve Dancing Beat_TapeRecorder"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-9
 			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "Dovve Dancing Beat_TapeRecorder",
 			"indices": [
 				15,
 				16,
@@ -47,11 +51,18 @@
 				27,
 				28,
 				29
+			]
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-2,
+				-19
 			],
+			"anim": "cringe",
 			"fps": 24,
-			"anim": "danceRight",
-			"loop": false,
-			"name": "Dovve Dancing Beat_TapeRecorder"
+			"name": "Dovve Cringe_TapeRecorder",
+			"indices": []
 		},
 		{
 			"offsets": [
@@ -60,7 +71,7 @@
 			],
 			"indices": [],
 			"fps": 24,
-			"anim": "cringe",
+			"anim": "sad",
 			"loop": true,
 			"name": "Dovve Cringe_TapeRecorder"
 		}
