@@ -67,7 +67,7 @@ function onCreate()
 	makeLuaSprite('BGTFloor', 'phila/taperecorder/Layer 03_TR Ground', -1200, -1115);
 	scaleObject('BGTFloor', 1.7, 1.7);
 	
-	makeAnimatedLuaSprite('BGTBird', 'phila/taperecorder/Layer 02_Birb', 2750, 850);
+	makeAnimatedLuaSprite('BGTBird', 'phila/taperecorder/Layer 02_Birb', 2750, 785);
 	addAnimationByPrefix('BGTBird','bump','Layer 02_Birb', 24, false);
 	scaleObject('BGTBird', 2, 2);
 
@@ -82,7 +82,7 @@ end
 --This is called every beat
 function onBeatHit()
 	--Actual beat is 208
-	if curBeat == 208 then
+	if curBeat == 4 then
 		swapToTaperecorder()
 	end
 
