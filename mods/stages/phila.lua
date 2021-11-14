@@ -30,7 +30,7 @@ function onCreate()
 	scaleObject('crowd', 0.85, 0.85);
 
 	
-	makeLuaSprite('FG', 'phila/Layer 01_Phila FG 1', -640, -275);
+	makeLuaSprite('FG', 'phila/Layer 01_Phila FG 1', -550, -275);
 	setScrollFactor('FG', 1, 1);
 	scaleObject('FG', 1, 1);
 
