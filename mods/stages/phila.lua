@@ -14,7 +14,7 @@ function onCreate()
 	addAnimationByPrefix('golinLoop','bump','Layer 07_Phila Golin REC Loop', 24, false);
 	scaleObject('golinLoop', 1, 1);
 
-	makeLuaSprite('BG2', 'phila/Layer 06_Phila BG 2', -550, -350);
+	makeLuaSprite('BG2', 'phila/Layer 06_Phila BG 2', -550, -400);
 	setScrollFactor('BG2', 1, 1);
 
 	makeLuaSprite('BG3', 'phila/Layer 05_Phila BG 1', -550, -350);

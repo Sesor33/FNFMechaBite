@@ -1,6 +1,7 @@
 --Cutscene functions
 local allowCountdown = false
 local isSwapped = false
+local zoomVal = 0.58
 function onStartCountdown()
 	if not allowCountdown and isStoryMode and not seenCutscene then
 		setProperty('camGame.visible',false);
@@ -37,6 +38,7 @@ function onCreate()
 	makeAnimatedLuaSprite('BGT2', 'phila/taperecorder/Layer 08_TR City', -1200, -1115);
 	addAnimationByPrefix('BGT2', 'bump', 'Layer 08_TR City', 24, false);
 	scaleObject('BGT2', 1.7, 1.7);
+	setScrollFactor('BGT2', 0.8, 0.8);
 
 	makeAnimatedLuaSprite('BGTShootingStar', 'phila/taperecorder/Layer 10_TR Shootingstar', -1200, -1115);
 	addAnimationByPrefix('BGTShootingStar','bump','Layer 10_TR Shootingstar Instanz ',24, false);
@@ -51,18 +53,22 @@ function onCreate()
 	makeAnimatedLuaSprite('BGTFog2', 'phila/taperecorder/Layer 05_TR Fog 01', -1200, -1115);
 	addAnimationByPrefix('BGTFog2','bump','Layer 05_TR Fog 01', 24, true);
 	scaleObject('BGTFog2', 1.7, 1.7);
+	setScrollFactor('BGTFog2', 0.95, 0.95);
 
 	makeAnimatedLuaSprite('BGTFog', 'phila/taperecorder/Layer 07_TR Fog 02', -1200, -1115);
 	addAnimationByPrefix('BGTFog','bump','Layer 07_TR Fog 02', 24, true);
 	scaleObject('BGTFog', 1.7, 1.7);
+	setScrollFactor('BGTFog', 0.95, 0.95);
 
 	makeAnimatedLuaSprite('BGTMechasm', 'phila/taperecorder/Layer 06_Mechasm', -1200, -1115);
 	addAnimationByPrefix('BGTMechasm','bump','Layer 06_Mechasm', 24, false);
 	scaleObject('BGTMechasm', 1.7, 1.7);
+	setScrollFactor('BGTMechasm', 0.98, 0.98);
 
 	makeAnimatedLuaSprite('BGTRock', 'phila/taperecorder/Layer 04_TR Rock', -1000, -1115);
 	addAnimationByPrefix('BGTRock','bump','Layer 04_TR Rock', 24, false);
 	scaleObject('BGTRock', 1.7, 1.7);
+	setScrollFactor('BGTRock', 0.9, 0.9);
 
 	makeLuaSprite('BGTFloor', 'phila/taperecorder/Layer 03_TR Ground', -1200, -1115);
 	scaleObject('BGTFloor', 1.7, 1.7);
@@ -146,7 +152,7 @@ function swapToTaperecorder()
 	setProperty('gf.y', 180)
 	
 	--Tweens
-	doTweenZoom('zoomTag', 'camGame', 0.505, .5, 'linear')
+	doTweenZoom('zoomTag', 'camGame', zoomVal, .5, 'linear')
 	doTweenAlpha('alphaTag', 'BGTFog',0.3,1,'linear')
 	doTweenAlpha('alphaTag2', 'BGTFog2',0.2,1,'linear')
 	
@@ -171,7 +177,7 @@ function onTweenCompleted(tag)
 		removeLuaSprite('cameraFlash', true)
 	end
 	if tag == 'zoomTag' then
-		setProperty('defaultCamZoom', 0.505)
+		setProperty('defaultCamZoom', zoomVal)
 		doTweenAlpha('camFlashTag', 'cameraFlash',0,1,'linear')
 	end
 end
