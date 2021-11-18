@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="munchken_assets">
+<TextureAtlas imagePath="munchken_assets.png">
 	<!-- Created with Adobe Animate version 16.0.1.119 -->
 	<!-- http://www.adobe.com/products/animate.html -->
 	<SubTexture name="Bon Dance IDLE0000" x="10" y="10" width="526" height="591"/>
@@ -42,7 +42,7 @@
 	<SubTexture name="Bon HEY!!0023" x="454" y="611" width="434" height="587"/>
 	<SubTexture name="Bon HEY!!0024" x="454" y="611" width="434" height="587"/>
 	<SubTexture name="Bon HEY!!0025" x="454" y="611" width="434" height="587"/>
-	<SubTexture name="0000" x="898" y="611" width="570" height="461"/>
+	<SubTexture name="Bon Note DOWN0000" x="898" y="611" width="570" height="461"/>
 	<SubTexture name="Bon Note DOWN0001" x="898" y="611" width="570" height="461"/>
 	<SubTexture name="Bon Note DOWN0002" x="1478" y="611" width="570" height="461"/>
 	<SubTexture name="Bon Note DOWN0003" x="1478" y="611" width="570" height="461"/>
@@ -302,4 +302,46 @@
 	<SubTexture name="Bon Note UP MISS0026" x="2964" y="1804" width="492" height="622"/>
 	<SubTexture name="Bon Note UP MISS0027" x="2964" y="1804" width="492" height="622"/>
 	<SubTexture name="Bon Note UP MISS0028" x="2964" y="1804" width="492" height="622"/>
+	<SubTexture name="Bon SHOCK0000" x="3466" y="1804" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0001" x="3466" y="1804" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0002" x="10" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0003" x="10" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0004" x="495" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0005" x="495" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0006" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0007" x="1465" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0008" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0009" x="1950" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0010" x="1950" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0011" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0012" x="1465" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0013" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0014" x="1950" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0015" x="1950" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0016" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0017" x="1465" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0018" x="980" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0019" x="2435" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0020" x="2435" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0021" x="2920" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0022" x="3405" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0023" x="10" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0024" x="495" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0025" x="980" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0026" x="1465" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0027" x="1950" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0028" x="2435" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0029" x="2920" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0030" x="3405" y="3041" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0031" x="10" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0032" x="495" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0033" x="980" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0034" x="1465" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0035" x="1950" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0036" x="2435" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0037" x="2920" y="3637" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0038" x="10" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0039" x="10" y="2445" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0040" x="3466" y="1804" width="475" height="586"/>
+	<SubTexture name="Bon SHOCK0041" x="3466" y="1804" width="475" height="586"/>
 </TextureAtlas>
