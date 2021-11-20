@@ -38,7 +38,7 @@ function onCreate()
 	makeAnimatedLuaSprite('BGT2', 'phila/taperecorder/Layer 08_TR City', -1200, -1115);
 	addAnimationByPrefix('BGT2', 'bump', 'Layer 08_TR City', 24, false);
 	scaleObject('BGT2', 1.7, 1.7);
-	setScrollFactor('BGT2', 0.8, 0.8);
+	setScrollFactor('BGT2', 0.75, 0.75);
 
 	makeAnimatedLuaSprite('BGTShootingStar', 'phila/taperecorder/Layer 10_TR Shootingstar', -1200, -1115);
 	addAnimationByPrefix('BGTShootingStar','bump','Layer 10_TR Shootingstar Instanz ',24, false);
@@ -47,7 +47,7 @@ function onCreate()
 
 	makeAnimatedLuaSprite('BGTStars', 'phila/taperecorder/Layer 9_TR Stars', -1200, -1115);
 	addAnimationByPrefix('BGTStars','bump','Layer 09_TR Stars', 24, false);
-	setScrollFactor('BGTStars', 0.8, 0.8);
+	setScrollFactor('BGTStars', 0.6, 0.6);
 	scaleObject('BGTStars', 1.7, 1.7);
 
 	makeAnimatedLuaSprite('BGTFog2', 'phila/taperecorder/Layer 05_TR Fog 01', -1200, -1115);
