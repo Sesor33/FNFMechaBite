@@ -4,17 +4,17 @@ local isSwapped = false
 local zoomVal = 0.58
 function onStartCountdown()
 	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('camGame.visible',false);
-		setProperty('camHUD.visible',false);
-		runTimer('cutsceneTimer',1,1);
+		setProperty('camGame.visible',false) 
+		setProperty('camHUD.visible',false) 		
+		runTimer('cutsceneTimer',1,1) 
 
-		allowCountdown = true;
-		return Function_Stop;
+		allowCountdown = true 
+		return Function_Stop 
 	end
-	setProperty('camGame.visible',true);
-	setProperty('camHUD.visible',true);
+	setProperty('camGame.visible',true) 
+	setProperty('camHUD.visible',true) 
 
-	return Function_Continue;
+	return Function_Continue 
 end
 
 function onTimerCompleted(tag, loops, loopsLeft)
@@ -27,68 +27,73 @@ end
 function onCreate()
 	addCharacterToList('dovvetr', 'gf')
 	makeAnimatedLuaSprite('dovvetr', 'dovvetr_assets')
-	luaSpriteAddAnimationByPrefix('dovvetr', 'danceLeft', 'danceLeft', 24, false);
-	luaSpriteAddAnimationByPrefix('dovvetr', 'danceRight', 'danceRight', 24, false);
+	luaSpriteAddAnimationByPrefix('dovvetr', 'danceLeft', 'danceLeft', 24, false) 
+	luaSpriteAddAnimationByPrefix('dovvetr', 'danceRight', 'danceRight', 24, false)
 
 	--Add taperecorder BG sprites
-	makeLuaSprite('BGT1', 'phila/taperecorder/Layer 11_TR BG', -1200, -1115);
-	setScrollFactor('BGT1', 0.1, 0.1);
-	scaleObject('BGT1', 1.7, 1.7);
+	makeLuaSprite('BGT1', 'phila/taperecorder/Layer 11_TR BG', -1200, -1115) 
+	setScrollFactor('BGT1', 0.1, 0.1) 
+	scaleObject('BGT1', 1.7, 1.7) 
 
-	makeAnimatedLuaSprite('BGT2', 'phila/taperecorder/Layer 08_TR City', -1200, -1115);
-	addAnimationByPrefix('BGT2', 'bump', 'Layer 08_TR City', 24, false);
-	scaleObject('BGT2', 1.7, 1.7);
-	setScrollFactor('BGT2', 0.75, 0.75);
+	makeAnimatedLuaSprite('BGT2', 'phila/taperecorder/Layer 08_TR City', -1200, -1115) 
+	addAnimationByPrefix('BGT2', 'bump', 'Layer 08_TR City', 24, false) 
+	scaleObject('BGT2', 1.7, 1.7) 
+	setScrollFactor('BGT2', 0.75, 0.75) 
 
-	makeAnimatedLuaSprite('BGTShootingStar', 'phila/taperecorder/Layer 10_TR Shootingstar', -1200, -1115);
-	addAnimationByPrefix('BGTShootingStar','bump','Layer 10_TR Shootingstar Instanz ',24, false);
-	setScrollFactor('BGTShootingStar', 0.5, 0.5);
-	scaleObject('BGTShootingStar', 1.7, 1.7);
+	makeAnimatedLuaSprite('BGTShootingStar', 'phila/taperecorder/Layer 10_TR Shootingstar', -1200, -1115) 
+	addAnimationByPrefix('BGTShootingStar','bump','Layer 10_TR Shootingstar Instanz ',24, false) 
+	setScrollFactor('BGTShootingStar', 0.5, 0.5) 
+	scaleObject('BGTShootingStar', 1.7, 1.7) 
 
-	makeAnimatedLuaSprite('BGTStars', 'phila/taperecorder/Layer 9_TR Stars', -1200, -1115);
-	addAnimationByPrefix('BGTStars','bump','Layer 09_TR Stars', 24, false);
-	setScrollFactor('BGTStars', 0.6, 0.6);
-	scaleObject('BGTStars', 1.7, 1.7);
+	makeAnimatedLuaSprite('BGTStars', 'phila/taperecorder/Layer 9_TR Stars', -1200, -1115) 
+	addAnimationByPrefix('BGTStars','bump','Layer 09_TR Stars', 24, false) 
+	setScrollFactor('BGTStars', 0.6, 0.6) 
+	scaleObject('BGTStars', 1.7, 1.7) 
 
-	makeAnimatedLuaSprite('BGTFog2', 'phila/taperecorder/Layer 05_TR Fog 01', -1200, -1115);
-	addAnimationByPrefix('BGTFog2','bump','Layer 05_TR Fog 01', 24, true);
-	scaleObject('BGTFog2', 1.7, 1.7);
-	setScrollFactor('BGTFog2', 0.95, 0.95);
+	makeAnimatedLuaSprite('BGTFog2', 'phila/taperecorder/Layer 05_TR Fog 01', -1200, -1115) 
+	addAnimationByPrefix('BGTFog2','bump','Layer 05_TR Fog 01', 24, true) 
+	scaleObject('BGTFog2', 1.7, 1.7) 
+	setScrollFactor('BGTFog2', 0.95, 0.95) 
 
-	makeAnimatedLuaSprite('BGTFog', 'phila/taperecorder/Layer 07_TR Fog 02', -1200, -1115);
-	addAnimationByPrefix('BGTFog','bump','Layer 07_TR Fog 02', 24, true);
-	scaleObject('BGTFog', 1.7, 1.7);
-	setScrollFactor('BGTFog', 0.95, 0.95);
+	makeAnimatedLuaSprite('BGTFog', 'phila/taperecorder/Layer 07_TR Fog 02', -1200, -1115) 
+	addAnimationByPrefix('BGTFog','bump','Layer 07_TR Fog 02', 24, true) 
+	scaleObject('BGTFog', 1.7, 1.7) 
+	setScrollFactor('BGTFog', 0.95, 0.95) 
 
-	makeAnimatedLuaSprite('BGTMechasm', 'phila/taperecorder/Layer 06_Mechasm', -1200, -1115);
-	addAnimationByPrefix('BGTMechasm','bump','Layer 06_Mechasm', 24, false);
-	scaleObject('BGTMechasm', 1.7, 1.7);
-	setScrollFactor('BGTMechasm', 0.98, 0.98);
+	makeAnimatedLuaSprite('BGTMechasm', 'phila/taperecorder/Layer 06_Mechasm', -1200, -1115) 
+	addAnimationByPrefix('BGTMechasm','bump','Layer 06_Mechasm', 24, false) 
+	scaleObject('BGTMechasm', 1.7, 1.7) 
+	setScrollFactor('BGTMechasm', 0.98, 0.98) 
 
-	makeAnimatedLuaSprite('BGTRock', 'phila/taperecorder/Layer 04_TR Rock', -1000, -1115);
-	addAnimationByPrefix('BGTRock','bump','Layer 04_TR Rock', 24, false);
-	scaleObject('BGTRock', 1.7, 1.7);
-	setScrollFactor('BGTRock', 0.9, 0.9);
+	makeAnimatedLuaSprite('BGTRock', 'phila/taperecorder/Layer 04_TR Rock', -1000, -1115) 
+	addAnimationByPrefix('BGTRock','bump','Layer 04_TR Rock', 24, false) 
+	scaleObject('BGTRock', 1.7, 1.7) 
+	setScrollFactor('BGTRock', 0.9, 0.9) 
 
-	makeLuaSprite('BGTFloor', 'phila/taperecorder/Layer 03_TR Ground', -1200, -1115);
-	scaleObject('BGTFloor', 1.7, 1.7);
+	makeLuaSprite('BGTFloor', 'phila/taperecorder/Layer 03_TR Ground', -1200, -1115) 
+	scaleObject('BGTFloor', 1.7, 1.7) 
 	
-	makeAnimatedLuaSprite('BGTBird', 'phila/taperecorder/Layer 02_Birb', 2750, 785);
-	addAnimationByPrefix('BGTBird','bump','Layer 02_Birb', 24, false);
-	scaleObject('BGTBird', 2, 2);
+	makeAnimatedLuaSprite('BGTBird', 'phila/taperecorder/Layer 02_Birb', 2750, 785) 
+	addAnimationByPrefix('BGTBird','bump','Layer 02_Birb', 24, false) 
+	scaleObject('BGTBird', 2, 2) 
 
-	makeAnimatedLuaSprite('FGT1', 'phila/taperecorder/Layer 01_TR FG', -1200, -1115);
-	addAnimationByPrefix('FGT1','bump','Layer 01_TR FG', 24, false);
-	scaleObject('FGT1', 1.7, 1.7);
+	makeAnimatedLuaSprite('FGT1', 'phila/taperecorder/Layer 01_TR FG', -1200, -1115) 
+	addAnimationByPrefix('FGT1','bump','Layer 01_TR FG', 24, false) 
+	scaleObject('FGT1', 1.7, 1.7) 
 
-	makeLuaSprite('cameraFlash', 'phila/taperecorder/cameraFlash', -1200, -1000);
-	scaleObject('cameraFlash', 100, 100);
+	makeLuaSprite('cameraFlash', 'phila/taperecorder/cameraFlash', -1200, -1000) 
+	scaleObject('cameraFlash', 100, 100) 
+
+	
+	if not lowQuality then
+		precacheTRImages()
+	end
 
 	--Add Bon death sprite
     readyDeathSprite()
 
 	--Add taperecorder BG sprites
-	addTaperecorderBGSprites();
+	addTaperecorderBGSprites() 
 end
 
 --This is called every beat
@@ -100,17 +105,17 @@ function onBeatHit()
 
 	--Play every headbop
 	if isSwapped and curBeat % 2 == 0 then
-		objectPlayAnimation('BGT2', 'bump', false);
-		objectPlayAnimation('BGTStars', 'bump', false);
-		objectPlayAnimation('FGT1', 'bump', false);
-		objectPlayAnimation('BGTBird', 'bump', false);	
-		objectPlayAnimation('BGTMechasm', 'bump', false);
-		objectPlayAnimation('BGTRock', 'bump', false);
+		objectPlayAnimation('BGT2', 'bump', false) 
+		objectPlayAnimation('BGTStars', 'bump', false) 
+		objectPlayAnimation('FGT1', 'bump', false) 
+		objectPlayAnimation('BGTBird', 'bump', false) 	
+		objectPlayAnimation('BGTMechasm', 'bump', false) 
+		objectPlayAnimation('BGTRock', 'bump', false) 
 	end
 
 	--Play every measure
 	if isSwapped and curBeat % 4 == 0 then
-		objectPlayAnimation('BGTShootingStar', 'bump', false);
+		objectPlayAnimation('BGTShootingStar', 'bump', false) 
 	end
 
 end
@@ -124,7 +129,7 @@ function onGameOver()
     playSound('death', 0.3)
     playSound('BF_Deathsound')
     playMusic('gameOver', 1, true)
-	return Function_Continue;
+	return Function_Continue 
 end
 
 function onGameOverConfirm(retry)
@@ -164,7 +169,7 @@ end
 function readyDeathSprite()
 	addCharacterToList('bon_dead', 'boyfriend')
     
-    makeAnimatedLuaSprite('bon_dead', 'bon_dead');
+    makeAnimatedLuaSprite('bon_dead', 'bon_dead') 
     luaSpriteAddAnimationByPrefix('bon_dead', 'firstDeath', 'firstDeath', 24, false)
     luaSpriteAddAnimationByPrefix('bon_dead', 'deathLoop', 'deathLoop', 24, true)
     luaSpriteAddAnimationByPrefix('bon_dead', 'deathConfirm', 'deathConfirm', 24, false)
@@ -233,12 +238,27 @@ end
 --Remove unwanted sprites
 function removeOldSprites()
 	removeLuaSprite('BG1', true)
-	removeLuaSprite('hex', true);
-	removeLuaSprite('golinLoop', true);
-	removeLuaSprite('BG2', true);
-	removeLuaSprite('BG3', true);
-	removeLuaSprite('BG4', true);
-	removeLuaSprite('crowd', true);
-	removeLuaSprite('FG2', true);
-	removeLuaSprite('FG', true);
+	removeLuaSprite('hex', true) 
+	removeLuaSprite('golinLoop', true) 
+	removeLuaSprite('BG2', true) 
+	removeLuaSprite('BG3', true) 
+	removeLuaSprite('BG4', true) 
+	removeLuaSprite('crowd', true) 
+	removeLuaSprite('FG2', true) 
+	removeLuaSprite('FG', true) 
 end
+
+--Precaches all images from TR
+function precacheTRImages()
+	precacheImage('phila/taperecorder/Layer 11_TR BG')
+	precacheImage('phila/taperecorder/Layer 08_TR City')
+	precacheImage('phila/taperecorder/Layer 10_TR Shootingstar')
+	precacheImage('phila/taperecorder/Layer 09_TR Stars')
+	precacheImage('phila/taperecorder/Layer 05_TR Fog 01')
+	precacheImage('phila/taperecorder/Layer 07_TR Fog 02')
+	precacheImage('phila/taperecorder/Layer 06_Mechasm')
+	precacheImage('phila/taperecorder/Layer 04_TR Rock')
+	precacheImage('phila/taperecorder/Layer 03_TR Ground')
+	precacheImage('phila/taperecorder/Layer 02_Birb')
+	precacheImage('phila/taperecorder/Layer 01_TR FG')
+end	

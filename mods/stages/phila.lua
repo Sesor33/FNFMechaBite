@@ -10,7 +10,7 @@ function onCreate()
 	setScrollFactor('hex', 1, 1);
 	scaleObject('hex', 1, 1);
 
-	makeAnimatedLuaSprite('golinLoop','phila/Layer 07_Phila Golin REC Loop', -200, 90);
+	makeAnimatedLuaSprite('golinLoop','phila/Layer 07_Phila Golin REC Loop', -200, 35);
 	addAnimationByPrefix('golinLoop','bump','Layer 07_Phila Golin REC Loop', 24, false);
 	scaleObject('golinLoop', 1, 1);
 
