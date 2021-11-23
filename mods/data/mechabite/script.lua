@@ -4,12 +4,19 @@ local isSwapped = false
 local zoomVal = 0.58
 function onStartCountdown()
 	if not allowCountdown and isStoryMode and not seenCutscene then
-		setProperty('camGame.visible',false) 
-		setProperty('camHUD.visible',false) 		
-		runTimer('cutsceneTimer',1,1) 
+		if lowQuality then
+			setProperty('camGame.visible',false) 
+			setProperty('camHUD.visible',false) 		
+			runTimer('cutsceneTimer',2,1) 
 
-		allowCountdown = true 
-		return Function_Stop 
+			allowCountdown = true 
+			return Function_Stop 
+		else
+			setProperty('inCutscene', true)
+        	startVideo('mechabiteIntro')
+	    	allowCountdown = true;
+        	return Function_Stop;
+		end
 	end
 	setProperty('camGame.visible',true) 
 	setProperty('camHUD.visible',true) 
