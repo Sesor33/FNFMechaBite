@@ -33,9 +33,9 @@ end
 
 function onCreate()
 	addCharacterToList('dovvetr', 'gf')
-	makeAnimatedLuaSprite('dovvetr', 'dovvetr_assets')
-	luaSpriteAddAnimationByPrefix('dovvetr', 'danceLeft', 'danceLeft', 24, false) 
-	luaSpriteAddAnimationByPrefix('dovvetr', 'danceRight', 'danceRight', 24, false)
+	addCharacterToList('dovvedark', 'gf')
+	addCharacterToList('bondark', 'boyfriend')
+	addCharacterToList('mechadark', 'dad')
 
 	--Add taperecorder BG sprites
 	makeLuaSprite('BGT1', 'phila/taperecorder/Layer 11_TR BG', -1200, -1115) 
@@ -112,12 +112,7 @@ function onBeatHit()
 
 	--Play every headbop
 	if isSwapped and curBeat % 2 == 0 then
-		objectPlayAnimation('BGT2', 'bump', false) 
-		objectPlayAnimation('BGTStars', 'bump', false) 
-		objectPlayAnimation('FGT1', 'bump', false) 
-		objectPlayAnimation('BGTBird', 'bump', false) 	
-		objectPlayAnimation('BGTMechasm', 'bump', false) 
-		objectPlayAnimation('BGTRock', 'bump', false) 
+		bumpAnim()
 	end
 
 	--Play every measure
@@ -125,6 +120,21 @@ function onBeatHit()
 		objectPlayAnimation('BGTShootingStar', 'bump', false) 
 	end
 
+end
+
+--This is called every step
+function onStepHit()
+	if curStep == 577 then
+		swapCharactersToDark()
+	end
+
+	if curStep == 836 then
+		swapCharactersToNormal()
+	end
+
+	if curStep == 838 then
+		fixSwapPositions()	
+	end
 end
 
 
@@ -156,12 +166,6 @@ function swapToTaperecorder()
 
 	--Add taperecorder BG sprites
 	showTaperecorderBGSprites()
-
-	--Change player position
-	setProperty('boyfriend.x', 1750)
-	setProperty('dad.x', -200)
-	setProperty('gf.x', 1200)
-	setProperty('gf.y', 180)
 	
 	--Tweens
 	doTweenZoom('zoomTag', 'camGame', zoomVal, .5, 'linear')
@@ -269,3 +273,34 @@ function precacheTRImages()
 	precacheImage('phila/taperecorder/Layer 02_Birb')
 	precacheImage('phila/taperecorder/Layer 01_TR FG')
 end	
+
+function bumpAnim()
+	objectPlayAnimation('BGT2', 'bump', false) 
+	objectPlayAnimation('BGTStars', 'bump', false) 
+	objectPlayAnimation('FGT1', 'bump', false) 
+	objectPlayAnimation('BGTBird', 'bump', false) 	
+	objectPlayAnimation('BGTMechasm', 'bump', false) 
+	objectPlayAnimation('BGTRock', 'bump', false) 
+end	
+
+--Changes characters to dark sprites
+function swapCharactersToDark()
+	triggerEvent('Change Character', 0, 'bondark');
+	triggerEvent('Change Character', 1, 'mechadark');
+	triggerEvent('Change Character', 2, 'dovvedark');
+end
+
+--Changes characters to light sprites
+function swapCharactersToNormal()
+	triggerEvent('Change Character', 0, 'bon');
+	triggerEvent('Change Character', 1, 'mecha');
+	triggerEvent('Change Character', 2, 'dovvetr');
+end
+
+--Fixes sprite positions after swap
+function fixSwapPositions()
+	setProperty('boyfriend.x', 1750)
+	setProperty('dad.x', -200)
+	setProperty('gf.x', 1200)
+	setProperty('gf.y', 180)
+end

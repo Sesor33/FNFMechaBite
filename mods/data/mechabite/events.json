@@ -341,20 +341,6 @@
 						"Blammed Lights",
 						"6",
 						""
-					],
-					[
-						55127.3885350318,
-						-1,
-						"Change Character",
-						"0",
-						"bondark"
-					],
-					[
-						55222.9299363057,
-						-1,
-						"Change Character",
-						"1",
-						"mechadark"
 					]
 				],
 				"bpm": 0,
@@ -619,46 +605,6 @@
 						""
 					]
 				],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [
-					[
-						79490.4458598726,
-						-1,
-						"Change Character",
-						"2",
-						"dovvetr"
-					],
-					[
-						79585.9872611465,
-						-1,
-						"Change Character",
-						"1",
-						"mecha"
-					],
-					[
-						79681.5286624204,
-						-1,
-						"Change Character",
-						"0",
-						"bon"
-					]
-				],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
