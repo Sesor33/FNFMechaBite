@@ -91,6 +91,12 @@ function onCreate()
 	makeLuaSprite('cameraFlash', 'phila/taperecorder/cameraFlash', -1200, -1000) 
 	scaleObject('cameraFlash', 100, 100) 
 
+	--Add void sprite
+	makeLuaSprite('void', 'phila/void', -1000, -600)
+	scaleObject('void', 1.2, 1.2)
+	setScrollFactor('void', 0.8, 0.8)
+
+
 	
 	if not lowQuality then
 		precacheTRImages()
@@ -124,15 +130,22 @@ end
 
 --This is called every step
 function onStepHit()
+
 	if curStep == 577 then
 		swapCharactersToDark()
+		addLuaSprite('void', false)
+		setProperty('void.alpha', 0)
+	end
+
+	if curStep == 578 then
+		doTweenAlpha('alphaTag3', 'void',1,1,'linear')
 	end
 
 	if curStep == 836 then
 		swapCharactersToNormal()
 	end
 
-	if curStep == 838 then
+	if curStep == 839 then
 		fixSwapPositions()	
 	end
 end
@@ -168,7 +181,7 @@ function swapToTaperecorder()
 	showTaperecorderBGSprites()
 	
 	--Tweens
-	doTweenZoom('zoomTag', 'camGame', zoomVal, .5, 'linear')
+	doTweenZoom('zoomTag', 'camGame', zoomVal, 0.5, 'linear')
 	doTweenAlpha('alphaTag', 'BGTFog',0.3,1,'linear')
 	doTweenAlpha('alphaTag2', 'BGTFog2',0.2,1,'linear')
 	
@@ -194,7 +207,7 @@ function onTweenCompleted(tag)
 	end
 	if tag == 'zoomTag' then
 		setProperty('defaultCamZoom', zoomVal)
-		doTweenAlpha('camFlashTag', 'cameraFlash',0,1,'linear')
+		doTweenAlpha('camFlashTag', 'cameraFlash',0,2.5,'linear')
 	end
 end
 
@@ -257,6 +270,7 @@ function removeOldSprites()
 	removeLuaSprite('crowd', true) 
 	removeLuaSprite('FG2', true) 
 	removeLuaSprite('FG', true) 
+	removeLuaSprite('void', true)
 end
 
 --Precaches all images from TR
