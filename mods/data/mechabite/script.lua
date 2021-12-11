@@ -145,7 +145,7 @@ function onStepHit()
 		swapCharactersToNormal()
 	end
 
-	if curStep == 839 then
+	if curStep == 838 then
 		fixSwapPositions()	
 	end
 end
