@@ -13,7 +13,11 @@ function onStartCountdown()
 			return Function_Stop 
 		else
 			setProperty('inCutscene', true)
-        	startVideo('mechabiteIntro')
+			if lowQuality then
+				startVideo('mechabiteIntroLR')
+			else
+				startVideo('mechabiteIntro')
+			end
 	    	allowCountdown = true;
         	return Function_Stop;
 		end
