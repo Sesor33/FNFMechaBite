@@ -134,12 +134,14 @@ end
 
 --This is called every step
 function onStepHit()
+	
 
-	if curStep == 577 then
+	if curStep == 576 then
 		swapCharactersToDark()
 		addLuaSprite('void', false)
 		setProperty('void.alpha', 0)
-	end
+		setProperty('blammedLightsBlack.alpha', 0)
+	end	
 
 	if curStep == 578 then
 		doTweenAlpha('alphaTag3', 'void',1,1,'linear')
