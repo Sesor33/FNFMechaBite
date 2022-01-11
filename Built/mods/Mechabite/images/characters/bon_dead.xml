@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bon_dead.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Bon DED0000" x="10" y="10" width="469" height="872"/>
+	<SubTexture name="Bon DED0001" x="489" y="10" width="469" height="872"/>
+	<SubTexture name="Bon DED0002" x="968" y="10" width="469" height="872"/>
+	<SubTexture name="Bon DED0003" x="1447" y="10" width="469" height="872"/>
+	<SubTexture name="Bon DED0004" x="1447" y="10" width="469" height="872"/>
+	<SubTexture name="Bon DED0005" x="10" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0006" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0007" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0008" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0009" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0010" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0011" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0012" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0013" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0014" x="489" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0015" x="968" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0016" x="968" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0017" x="968" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0018" x="1447" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0019" x="1447" y="892" width="469" height="872"/>
+	<SubTexture name="Bon DED0020" x="10" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0021" x="10" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0022" x="489" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0023" x="489" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0024" x="968" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0025" x="1447" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0026" x="1447" y="1774" width="469" height="872"/>
+	<SubTexture name="Bon DED0027" x="10" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0028" x="10" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0029" x="489" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0030" x="489" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0031" x="968" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0032" x="968" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0033" x="1447" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0034" x="1447" y="2656" width="469" height="872"/>
+	<SubTexture name="Bon DED0035" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0036" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0037" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0038" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0039" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0040" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0041" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0042" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0043" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0044" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0045" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0046" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0047" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0048" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0049" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0050" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0051" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0052" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0053" x="10" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0054" x="489" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0055" x="489" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0056" x="968" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon DED0057" x="968" y="3538" width="469" height="872"/>
+	<SubTexture name="Bon Dead CONFIRM0000" x="1447" y="3538" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0001" x="10" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0002" x="10" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0003" x="498" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0004" x="498" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0005" x="986" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0006" x="986" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0007" x="1474" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0008" x="1474" y="4422" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0009" x="10" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0010" x="10" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0011" x="498" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0012" x="498" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0013" x="498" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0014" x="986" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0015" x="986" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0016" x="986" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0017" x="986" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0018" x="986" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0019" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0020" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0021" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0022" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0023" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0024" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0025" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0026" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0027" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0028" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0029" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0030" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0031" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0032" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead CONFIRM0033" x="1474" y="5306" width="478" height="874"/>
+	<SubTexture name="Bon Dead LOOP0000" x="10" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0001" x="474" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0002" x="474" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0003" x="938" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0004" x="938" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0005" x="1402" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0006" x="1402" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0007" x="10" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0008" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0009" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0010" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0011" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0012" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0013" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0014" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0015" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0016" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0017" x="10" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0018" x="474" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0019" x="474" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0020" x="938" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0021" x="938" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0022" x="1402" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0023" x="1402" y="6190" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0024" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0025" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0026" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0027" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0028" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0029" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0030" x="10" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0031" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0032" x="474" y="7058" width="454" height="858"/>
+	<SubTexture name="Bon Dead LOOP0033" x="474" y="7058" width="454" height="858"/>
+</TextureAtlas>

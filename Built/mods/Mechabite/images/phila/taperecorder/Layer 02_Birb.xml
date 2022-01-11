@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 02_Birb.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 02_Birb Instanz 10000" x="10" y="10" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10001" x="10" y="10" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10002" x="125" y="10" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10003" x="125" y="10" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10004" x="10" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10005" x="10" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10006" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10007" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10008" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10009" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10010" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10011" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10012" x="125" y="99" width="105" height="79"/>
+	<SubTexture name="Layer 02_Birb Instanz 10013" x="125" y="99" width="105" height="79"/>
+</TextureAtlas>

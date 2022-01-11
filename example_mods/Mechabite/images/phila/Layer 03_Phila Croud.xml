@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 03_Phila Croud.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 03_Phila Croud0000" x="10" y="10" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0001" x="10" y="10" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0002" x="2050" y="10" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0003" x="2050" y="10" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0004" x="10" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0005" x="10" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0006" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0007" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0008" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0009" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0010" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0011" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0012" x="2050" y="433" width="2030" height="413"/>
+	<SubTexture name="Layer 03_Phila Croud0013" x="2050" y="433" width="2030" height="413"/>
+</TextureAtlas>

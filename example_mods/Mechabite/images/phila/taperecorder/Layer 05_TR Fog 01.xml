@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 05_TR Fog 01.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 05_TR Fog 010000" x="10" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010001" x="10" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010002" x="2227" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010003" x="2227" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010004" x="4444" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010005" x="4444" y="10" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010006" x="10" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010007" x="10" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010008" x="2227" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010009" x="2227" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010010" x="4444" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010011" x="4444" y="1261" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010012" x="10" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010013" x="10" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010014" x="2227" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010015" x="2227" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010016" x="4444" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010017" x="4444" y="2512" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010018" x="10" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010019" x="10" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010020" x="2227" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010021" x="2227" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010022" x="4444" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010023" x="4444" y="3763" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010024" x="10" y="5014" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010025" x="10" y="5014" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010026" x="2227" y="5014" width="2207" height="1241"/>
+	<SubTexture name="Layer 05_TR Fog 010027" x="2227" y="5014" width="2207" height="1241"/>
+</TextureAtlas>

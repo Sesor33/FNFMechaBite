@@ -1,0 +1,10 @@
+{
+	"idle_anim": "~Bon BLACK LINES",
+	"image": "campaign_menu_UI_characters",
+	"position": [
+		101,
+		64
+	],
+	"scale": 0.55,
+	"confirm_anim": "~Bon HEY!!"
+}

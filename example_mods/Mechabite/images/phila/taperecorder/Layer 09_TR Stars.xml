@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 09_TR Stars.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 09_TR Stars0000" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0001" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0002" x="2580" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0003" x="2580" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0004" x="5150" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0005" x="5150" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0006" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0007" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0008" x="2580" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0009" x="2580" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0010" x="5150" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0011" x="5150" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0012" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 09_TR Stars0013" x="10" y="10" width="2560" height="1440"/>
+</TextureAtlas>

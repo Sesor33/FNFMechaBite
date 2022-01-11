@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 10_TR Shootingstar.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10000" x="10" y="10" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10001" x="10" y="76" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10002" x="10" y="142" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10003" x="10" y="208" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10004" x="10" y="274" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10005" x="10" y="340" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10006" x="10" y="406" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10007" x="10" y="472" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10008" x="10" y="538" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10009" x="10" y="604" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10010" x="10" y="670" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10011" x="10" y="736" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10012" x="10" y="340" width="539" height="56"/>
+	<SubTexture name="Layer 10_TR Shootingstar Instanz 10013" x="10" y="406" width="539" height="56"/>
+</TextureAtlas>

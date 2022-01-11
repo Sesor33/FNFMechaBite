@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Layer 08_TR City.png">
+	<!-- Created with Adobe Animate version 16.0.1.119 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Layer 08_TR City0000" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0001" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0002" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0003" x="10" y="1460" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0004" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0005" x="10" y="10" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0006" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0007" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0008" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0009" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0010" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0011" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0012" x="10" y="2910" width="2560" height="1440"/>
+	<SubTexture name="Layer 08_TR City0013" x="10" y="2910" width="2560" height="1440"/>
+</TextureAtlas>

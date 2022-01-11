@@ -1,0 +1,10 @@
+{
+	"idle_anim": "~Mecha BLACK LINES",
+	"image": "campaign_menu_UI_characters",
+	"position": [
+		101,
+		124
+	],
+	"scale": 0.48,
+	"confirm_anim": "M Dad Idle"
+}

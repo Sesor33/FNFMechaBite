@@ -1,0 +1,178 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				178
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Bon Dance IDLE"
+		},
+		{
+			"offsets": [
+				0,
+				155
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [
+				0,
+				1,
+				2
+			],
+			"name": "Bon Note LEFT"
+		},
+		{
+			"offsets": [
+				-1,
+				174
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [
+				0,
+				1,
+				2
+			],
+			"name": "Bon Note RIGHT"
+		},
+		{
+			"offsets": [
+				30,
+				49
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [
+				0,
+				1,
+				2
+			],
+			"name": "Bon Note DOWN"
+		},
+		{
+			"offsets": [
+				0,
+				213
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [
+				0,
+				1,
+				2
+			],
+			"name": "Bon Note UP"
+		},
+		{
+			"offsets": [
+				0,
+				175
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"name": "Bon HEY!!"
+		},
+		{
+			"offsets": [
+				32,
+				43
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [
+				0,
+				1
+			],
+			"name": "Bon Note DOWN MISS"
+		},
+		{
+			"offsets": [
+				3,
+				206
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [
+				0,
+				1
+			],
+			"name": "Bon Note UP MISS"
+		},
+		{
+			"offsets": [
+				1,
+				154
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [
+				0,
+				1
+			],
+			"name": "Bon Note LEFT MISS"
+		},
+		{
+			"offsets": [
+				2,
+				174
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [
+				0,
+				1
+			],
+			"name": "Bon Note RIGHT MISS"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				10,
+				174
+			],
+			"anim": "hurt",
+			"fps": 24,
+			"name": "Bon SHOCK",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/munchkendark_assets",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bon",
+	"flip_x": true,
+	"healthbar_colors": [
+		246,
+		116,
+		191
+	],
+	"camera_position": [
+		45,
+		-200
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

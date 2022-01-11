@@ -1,0 +1,56 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				170
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "firstDeath",
+			"loop": false,
+			"name": "Bon DED"
+		},
+		{
+			"offsets": [
+				0,
+				160
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathLoop",
+			"loop": true,
+			"name": "Bon Dead LOOP"
+		},
+		{
+			"offsets": [
+				0,
+				176
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "deathConfirm",
+			"loop": true,
+			"name": "Bon Dead CONFIRM"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/bon_dead",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bon",
+	"flip_x": true,
+	"healthbar_colors": [
+		123,
+		214,
+		246
+	],
+	"camera_position": [
+		-80,
+		-190
+	],
+	"sing_duration": 4,
+	"scale": 1
+}
